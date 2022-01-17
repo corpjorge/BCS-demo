@@ -1,7 +1,7 @@
 import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import HelloWorld from "@/components/LayoutAuth.vue";
 
-describe("HelloWorld.vue", () => {
+describe("LayoutAuth.vue", () => {
   it("renders props.msg when passed", () => {
     const msg = "new message";
     const wrapper = shallowMount(HelloWorld, {
