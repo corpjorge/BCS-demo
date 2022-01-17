@@ -9,27 +9,26 @@ body {
 }
 
 .h1, .h2, h1, h2 {
-  font-family: Aller;
-  font-style: normal;
-  color: #496374;
+  font-style: normal!important;
+  color: #496374!important;
 }
 
 .h1, h1 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 20px!important;
+  font-weight: 400!important;
 }
 
 .h2, h2 {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 18px!important;
+  font-weight: 300!important;
 }
 
 .card .card-body {
   font-family: 'Montserrat', sans-serif !important;
-  background-color: #fff;
-  box-shadow: 0 1px 0 rgb(0 0 0 / 8%);
-  border-radius: 6px;
-  border: none;
+  background-color: #fff!important;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 8%)!important;
+  border-radius: 6px!important;
+  border: none!important;
 }
 
 
