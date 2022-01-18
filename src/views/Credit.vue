@@ -52,7 +52,7 @@
                   </div>
                   <div class="button-row d-flex mt-4">
                     <button
-                      class="btn bg-gradient-primary ms-auto mb-0 js-btn-next"
+                      class="btn bg-gradient-primary ms-auto mb-0 js-btn-next rounded-pill shadow"
                       type="button"
                       title="Next"
                       style="margin-top: 7px"
