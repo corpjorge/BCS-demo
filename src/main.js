@@ -3,10 +3,7 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
-// import assets from "./assets/assets";
+// import scss from "corpjorge-bcs-sass/scss/bcs.scss";
 
-createApp(App)
-    .use(store)
-    .use(router)
-    // .use(assets)
-    .mount("#app");
+// createApp(App).use(store).use(router).use(scss).mount("#app");
+createApp(App).use(store).use(router).mount("#app");
