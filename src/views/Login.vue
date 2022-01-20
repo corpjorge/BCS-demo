@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center mt-5 fade-in" style="margin-top: 60px">
+  <div class="login text-center mt-5 fade-in" style="margin-top: 60px" id="login">
     <main class="form-signin">
       <form autocomplete="off" @submit.prevent="login">
         <img
@@ -25,11 +25,11 @@
           <input
             type="text"
             class="form-control rounded shadow"
-            id="floatingInput"
+            id="document"
             placeholder="Cedula"
             v-model="user.document"
           />
-          <label for="floatingInput">Numero de identificación</label>
+          <label for="document">Numero de identificación</label>
         </div>
         <div class="form-floating">
           <input
@@ -60,7 +60,7 @@ export default {
   data() {
     return {
       user: {
-        document: null,
+        document: 'jj',
         password: null,
       },
       error: {},
