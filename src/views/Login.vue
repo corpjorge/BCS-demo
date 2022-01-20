@@ -60,7 +60,7 @@ export default {
   data() {
     return {
       user: {
-        document: 'jj',
+        document: null,
         password: null,
       },
       error: {},
