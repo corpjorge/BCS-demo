@@ -1,0 +1,67 @@
+// Colors
+
+// gray color
+$gray-500: #f1f2f6;
+
+// purple color
+$purple-500: #940F8C;
+
+// brown color
+$brown-900: #2f2d2a;
+
+// orange colors
+$orange-200: #EB8B13;
+
+// green colors
+$green-200: #1ca995f2;
+$green-500: #339407;
+
+// red colors
+$red-200: #ce1126;
+
+// blue colors
+$blue-300: #00b5ff;
+$blue-500: #00a1e4;
+$blue-800: #1782b8;
+$blue-900: #0072c6;
+
+// Theme-colors
+$primary: $blue-500;
+$secondary: $blue-300;
+$success: $green-500;
+$danger: $red-200;
+$warning: $orange-200;
+$info: $green-200;
+$light: $gray-500;
+$dark: $brown-900;
+$link: $blue-500;
+$border-radius: 0.6rem;
+
+// Spacer
+$spacer: 1rem;
+$spacers: (
+        0: 0,
+        1: $spacer * 0.25,
+        2: $spacer * 0.5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 6,
+);
+
+// Utilities
+$utilities: (
+        "min-viewport-height":
+        (
+                property: min-height,
+                class: min-vh,
+                values: (
+                        100: 100vh,
+                        90: 90vh
+                )
+        ),
+);
+$modal-fade-transform: scale(.5);
+
+// Font
+$font-family-sans-serif: "Montserrat", sans-serif !important;

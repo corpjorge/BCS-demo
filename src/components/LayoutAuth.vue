@@ -1,28 +1,20 @@
 <template>
-  <nav
-    class="navbar navbar-light bg-light"
-    style="padding: 0; margin-bottom: 25px"
-  >
-    <div class="container-fluid">
-      <a class="navbar-brand">Jorge Eduardo</a>
-      <form class="d-flex">
-        <button class="btn btn-sm btn-outline-primary" type="submit">
-          Salir
-        </button>
-      </form>
+  <Nav/>
+  <div class="container-fluid">
+    <div class="row">
+      <SideBar/>
+      <slot/>
     </div>
-  </nav>
-  <SideBar />
-  <div class="main-content position-relative max-height-vh-100 h-100 fade-in">
-    <slot />
   </div>
 </template>
 
 <script>
 import SideBar from "@/components/SideBar";
+import Nav from "@/components/Nav";
+
 export default {
   name: "LayoutAuth",
-  components: { SideBar },
+  components: {Nav, SideBar},
   created() {
     document
       .getElementsByTagName("body")[0]
@@ -45,6 +37,7 @@ export default {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;

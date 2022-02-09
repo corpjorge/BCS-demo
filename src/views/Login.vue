@@ -10,7 +10,7 @@
           style="width: 90%; margin-bottom: 15px"
         />
         <div class="form-floating my-2" style="margin-bottom: 7px">
-          <select class="form-select" aria-label="Default select example">
+          <select id="type" class="form-select" aria-label="Default select example">
             <option selected>Seleccionar</option>
             <option value="1">Cedula de ciudadanía</option>
             <option value="2">Cedula de extranjería</option>
@@ -19,7 +19,7 @@
             <option value="3">Permisos especial de permanencia</option>
             <option value="3">Usuario</option>
           </select>
-          <label for="floatingInput">Tipo de identificación</label>
+          <label for="type">Tipo de identificación</label>
         </div>
         <div class="form-floating my-2" style="margin-bottom: 7px">
           <input
@@ -43,7 +43,7 @@
         </div>
 
         <button
-          class="w-100 btn btn-lg btn-primary rounded-pill shadow"
+          class="w-100 btn btn-lg btn-primary rounded-pill shadow text-white"
           type="submit"
         >
           Iniciar sesión

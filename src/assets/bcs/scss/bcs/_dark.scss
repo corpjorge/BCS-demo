@@ -1,0 +1,27 @@
+.dark-mode-on {
+  background: #1e1e2f !important;
+}
+
+.dark-mode-on div[class~="card"] {
+  background: #27293d !important;
+}
+
+.dark-mode-on nav {
+  background-color: #27293d !important;
+}
+
+.dark-mode-on a[class~="border-bottom"] {
+  border-bottom: 1px solid #005693 !important;
+}
+
+.dark-mode-on a[class~="nav-link"] {
+  color: #fff;
+}
+
+.dark-mode-on #sidebar div[class~="border-top"] {
+  border-top: 1px solid #1782b8 !important;
+}
+
+.dark-mode-on input[class~="form-control-plaintext"] {
+  color: #f5f6fa !important;
+}

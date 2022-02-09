@@ -1,0 +1,26 @@
+/*
+ * BCS UI v0.1.0
+ * Repo Page: https://github.com/corpjorge/bcs-sass
+ * Copyright 2022 Banco Caja Social (https://www.bancocajasocial.com)
+ * Coded by BCS team Innovación
+ */
+
+// Theme Variables
+@import "bcs/variables";
+
+// Bootstrap Core
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+// Theme Core
+@import "bcs/theme";
+
+// Layout & components
+@import "bcs/card";
+@import "bcs/sidebar/sidebar";
+@import "bcs/animations/fade-in-top";
+@import "bcs/animations/scale-in-ver-top";
+@import "bcs/navbar";
+@import "bcs/form/form-signin";
+@import "bcs/dark";
+@import "bcs/modal";
